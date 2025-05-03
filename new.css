@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.image {
+    height: 60px;
+}
+
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('https://cdn.pixabay.com/photo/2017/05/19/15/16/countryside-2326787_1280.jpg');
+    height: 90vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.main-headingu {
+    font-size: 42px;
+    font-family: "Roboto";
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.b-u {
+    text-align: center;
+}
+
+.para-u {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.button-u {
+    height: 60px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 50px;
+    width: 120px;
+    border-radius: 12px;
+    border-width: 2px;
+    border-color: #f1ff5c;
+    background-color: #48d982;
+    cursor: pointer;
+}
+
+.button-u:hover {
+    box-shadow: 0.5em 2em 4em -0.4em #f1ff5c
+}
+
+
+
+.h-img-u {
+    height: 550px;
+    width: 100%;
+}
+
+.main-heading-u {
+    font-size: 24px;
+    font-family: "Bree Serif";
+    text-align: center;
+    padding: 20px;
+    color: #323f4b;
+}
+
+.pa-u {
+    font-size: 12px;
+    text-align: center;
+}
+
+.box-1 {
+    background-color: #e9f2f2;
+    border-radius: 12px;
+    height: 380px;
+    margin: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+.box-1:hover {
+    box-shadow: 3px 3px gray, -1em 0 .4em gray;
+    transition-duration: 0.5s;
+    transform: scale(1.02);
+}
+
+.html-u {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.n-u {
+    font-size: 24px;
+    font-family: "Bree Serif";
+}
+
+.pa-u {
+    font-size: 20px;
+}
+
+.align {
+    text-align: center;
+}
+
+.box-nxt {
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    height: 240px;
+    align-self: center;
+    border-radius: 12px;
+
+}
+
+.box-nxt:hover {
+    box-shadow: 4px 4px gray, -1em 0 .4em gray;
+}
+
+.color-p {
+    background-color: #ffffff;
+}
+
+.Products {
+    color: #323f4b;
+    padding: 12px;
+    text-align: center;
+    font-family: "Bree Serif";
+}
+
+.para-pro {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.button-pro {
+    color: #323f4b;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 12px;
+    border-width: 0px;
+    background-color: #48d982;
+    width: 100px;
+}
+
+.heading3-p {
+    font-family: "Monoton";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: lightblue;
+    padding: 20px;
+
+}
+
+
+.heading-2-p {
+    font-family: "roboto";
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+}
+
+.para-p {
+    color: black;
+    font-family: "Roboto";
+    font-size: 18px;
+    text-align: center;
+}
+
+.html-image-p {
+    height: 150px;
+    background-color: blue;
+
+}
+
+.para-2-p {
+    color: blue;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bg-p {
+    text-align: center;
+
+}
+
+.heading1-p {
+    color: black;
+    font-weight: bold;
+    font-family: roboto;
+    padding: 10px;
+}
+
+.price-p {
+    color: black;
+    font-size: 23px;
+}
+
+.card-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+.image-p1 {
+    height: 45px;
+}
+
+.btn-p {
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.price-p3 {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.image-a {
+    height: 45px;
+}
+
+.image1-a {
+    height: 320px;
+    padding: 12px;
+    margin: 12px;
+    margin-top: 20px;
+}
+
+.heading-a {
+    padding: 10px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.para-a {
+    margin-left: 10px;
+}
+
+.price-a {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+.dis-a {
+    color: red;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.btn-a {
+    height: 40px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+@media (max-width:576px) {
+    .alignn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+.background-color {
+    background-color: #19232d;
+    background-size: cover;
+    height: 110vh;
+    padding: 12px;
+}
+
+.html-image {
+    height: 120px;
+    width: 120px;
+    border-radius: 80px;
+    margin-right: auto;
+}
+
+.icon {
+    background-color: #202b36;
+    width: 50px;
+    color: #5a7184;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 5px;
+    padding: 12px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.heading {
+    color: #5a7184;
+    font-size: 16px;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.sub-heading {
+    color: #5a7184;
+    font-size: 20px;
+    margin-top: 12px;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.sub-heading-u {
+    color: #5a7184;
+    font-size: 36px;
+    margin-top: 12px;
+    padding: 16px;
+    font-weight: bold;
+}
+
+.paragraph {
+    color: #5a7184;
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.paragraph-u {
+    color: #5a7184;
+    margin-left: 8px;
+    font-size: 34px;
+    margin-top: 5px;
+}
+
+.comment {
+    color: #5a7184;
+    margin-left: 8px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.comment-u {
+    color: #5a7184;
+    margin-left: 8px;
+    font-size: 32px;
+    margin-top: 8px;
+}
+
+.hr {
+    border-color: #5a7184;
+    border-style: solid;
+    border-width: 1px;
+    width: 85vw;
+}
+
+.cpy-add {
+    color: #959ead;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.final {
+    height: 80px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.button-final {
+    color: #323f4b;
+    height: 30px;
+    font-size: 12px;
+    width: 60px;
+    margin-left: 100px;
+}
