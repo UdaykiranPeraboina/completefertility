@@ -131,7 +131,7 @@
 #heroCarousel .carousel-control-next {
     width: 10%;
     opacity: 0;
-    transition: opacity 0.4s ease, transform 0.4s ease;
+    transition: opacity 0.1s ease, transform 0.1s ease;
 }
 
 #heroCarousel:hover .carousel-control-prev,
@@ -151,11 +151,12 @@
 #heroCarousel .carousel-control-next-icon {
     width: 60px;
     height: 60px;
+    
     background-color: var(--primary);
     border-radius: 50%;
     background-size: 40%;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.1s ease, transform 0.1s ease, box-shadow 0.3s ease;
 }
 
 #heroCarousel .carousel-control-prev:hover .carousel-control-prev-icon,
@@ -196,7 +197,7 @@
 
 /* Animations for Caption Elements */
 #heroCarousel .carousel-item .animated {
-    animation-duration: 1.2s;
+    animation-duration: 0.5s;
     animation-fill-mode: both;
     opacity: 0;
 }
